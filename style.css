@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.border {
+  border: 2px solid red;
+}
+
+section {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+}
+.nav1 {
+  flex-grow: 1;
+}
+
+.nav1 ul,
+.nav2 ul {
+  display: flex;
+  list-style: none;
+}
+.nav1 ul li a,
+.nav2 ul li a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.logo {
+  display: inline-block;
+  width: 70px;
+}
+.nav1 ul li a {
+  margin-right: 30px;
+}
+
+.spreater {
+  display: block;
+  border-top: 2px solid #eee;
+  height: 0;
+}
+
+#moreColor {
+  color: #ff764d;
+}
+
+#tryColor {
+  color: #0000ff;
+  font-size: 15px;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+/*******More+ section********/
+
+.More {
+  padding-top: 10px;
+}
+
+.Moreh3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.MoreUl {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  padding-top: 7px;
+}
+
+.MoreUl li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+/***********/
+.MoreSecond {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.MoreSecondh3 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.MoreSecondUl {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  padding-top: 7px;
+}
+
+.MoreSecondUl li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/******end of more+*******/
+
+@media (max-width: 1000px) {
+  .nav1,
+  .nav2 {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .btn {
+    display: none;
+  }
+}
+
+/********second Menu******/
+
+.second-menu {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+}
+
+.nav3 {
+  padding: 20px;
+}
+
+.nav3 ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav3 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+@media (max-width: 1200px) {
+  .nav3 ul li a {
+    padding-left: 0;
+    margin-left: 20px;
+  }
+}
+
+/***********Header Picture******/
+
+.Header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+#headerPicture {
+  width: 90%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(imges/header.avif);
+  min-height: calc(100vh - 120px);
+}
+
+.Ableton-text {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+  color: #ff764d;
+}
+
+@media (max-width: 750px) {
+  .Ableton-text {
+    font-size: 40px;
+  }
+}
