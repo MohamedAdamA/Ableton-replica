@@ -9,4 +9,4 @@ function moreMenu() {
     }
   }
   
-  document.getElementById("moreColor").addEventListener("click", moreMenu);
+  document.getElementById("moreColor").addEventListener("click", moreMenu); 
