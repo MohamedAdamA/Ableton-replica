@@ -76,6 +76,10 @@ section {
 
 /*******More+ section********/
 
+#menuButton{
+  display: none;
+}
+
 .More {
   padding-top: 10px;
 }
